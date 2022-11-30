@@ -24,7 +24,10 @@
   background: none;
 }
 
+.item-list-container {
+  height: 40vh;
 
+}
 
 
 .brand-icon {
@@ -57,4 +60,35 @@
 
 .navbar-toggler-icon {
   --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg");
+}
+
+footer {
+  height: 20vh;
+}
+
+
+.text-footer-brand {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.footer-icon {
+  width: 35px;
+}
+
+.text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.text-footer-small {
+  font-size: 0.9rem;
 }

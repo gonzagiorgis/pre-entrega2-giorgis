@@ -9,7 +9,11 @@ const navBar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <a className="navbar-brand" href="index.html">
-            <img className="brand-icon" src="img/logosvg2.svg" alt="" />
+            <img
+              className="brand-icon"
+              src="img/logosvg2.svg"
+              alt="Logo de Jardín Padel Club"
+            />
           </a>
           <button
             className="navbar-toggler"
