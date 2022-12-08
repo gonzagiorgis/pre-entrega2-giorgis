@@ -3,8 +3,6 @@ import CarWidget from "./CarWidget";
 
 const navBar = () => {
   return (
-    // <div className="container-fluid">
-    //   <div className="row">
     <div className="col-11 col-lg-10 col-xl-8 m-auto">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
@@ -65,8 +63,6 @@ const navBar = () => {
         </div>
       </nav>
     </div>
-    //   </div>
-    // </div>
   );
 };
 

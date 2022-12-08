@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="col-11 col-sm-3 text-footer mt-3 mt-sm-0">
           Puedes seguirnos en nuestras redes sociales:
-          <div className="d-flex justify-content-around d-block">
+          <div className="d-flex justify-content-around d-block mt-2">
             <a
               href="https://www.facebook.com/jardinpadel/"
               target={"_blank"}
@@ -53,7 +53,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-11 col-sm-3 text-footer mt-3 mt-sm-0">
-          UBICACIÓN:
+          Ubicación:
           <div className="text-footer-small">Celso Barrios altura 2261</div>
           <div className="text-footer-small">5000 Córdoba</div>
           <div className="text-footer-small">Argentina</div>
