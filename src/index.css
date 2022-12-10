@@ -12,7 +12,7 @@
   font-size: 1.2rem;
   color: #ffffff;
   font-weight: 300;
-  animation: in 0.5s forwards
+  animation: in 1s forwards
 }
 
 .nav-link:hover {
@@ -37,7 +37,7 @@
 }
 
 .brand-icon:hover {
-  animation: out 1s forwards;
+  animation: out 0.5s forwards;
 }
 
 @keyframes in {

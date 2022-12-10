@@ -54,8 +54,8 @@ const Footer = () => {
         </div>
         <div className="col-11 col-sm-3 text-footer mt-3 mt-sm-0">
           Ubicación:
-          <div className="text-footer-small">Celso Barrios altura 2261</div>
-          <div className="text-footer-small">5000 Córdoba</div>
+          <div className="text-footer-small">Celso Barrios Nº 2261</div>
+          <div className="text-footer-small">CP: 5000- Córdoba Capital</div>
           <div className="text-footer-small">Argentina</div>
         </div>
       </div>
