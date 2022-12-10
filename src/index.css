@@ -12,11 +12,12 @@
   font-size: 1.2rem;
   color: #ffffff;
   font-weight: 300;
-
+  animation: in 0.5s forwards
 }
 
 .nav-link:hover {
   color: #F7B64F;
+  animation: out 0.5s forwards;
 }
 
 .cart-icon {
@@ -32,6 +33,32 @@
 
 .brand-icon {
   width: 155.30px;
+  animation: in 1s forwards
+}
+
+.brand-icon:hover {
+  animation: out 1s forwards;
+}
+
+@keyframes in {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes out {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
 
 #cart-btn {
@@ -40,7 +67,6 @@
 }
 
 .btn-custom {
-
   --bs-btn-color: #ffffff;
   --bs-btn-border-color: rgb(255, 255, 255);
   --bs-btn-hover-color: #408aca;
