@@ -14,7 +14,7 @@ const navBar = () => {
             />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler light-shadows"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -55,7 +55,7 @@ const navBar = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-custom" type="submit">
+              <button className="btn btn-custom light-shadows" type="submit">
                 Buscar
               </button>
             </form>

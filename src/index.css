@@ -40,6 +40,37 @@
   animation: out 0.5s forwards;
 }
 
+.btn-counter {
+  background-color: #408aca;
+  color: #ffffff;
+  border-radius: 3px;
+  border-color: #ffffff;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.light-shadows {
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.btn-counter:hover {
+  background-color: #F7B64F;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-counter:active {
+  background-color: #F7B64F;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-primary {
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffab23;
+  --bs-btn-active-border-color: #ffffff;
+}
+
 @keyframes in {
   from {
     transform: scale(1.1);
