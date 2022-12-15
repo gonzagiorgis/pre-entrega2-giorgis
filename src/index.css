@@ -25,12 +25,6 @@
   background: none;
 }
 
-.item-list-container {
-  height: 40vh;
-
-}
-
-
 .brand-icon {
   width: 155.30px;
   animation: in 0.5s forwards
@@ -148,4 +142,30 @@ footer ul {
 
 .text-footer-small {
   font-size: 0.9rem;
+}
+
+.card-body {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-basic {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.text-precio {
+
+  color: #ffab23;
+  font-size: 1.5rem;
+}
+
+.img-item {
+  box-shadow: 4px 4px 4px 0px rgba(20, 20, 20, 0.699);
+  z-index: +50;
+}
+
+img.card {
+  background-color: none;
 }

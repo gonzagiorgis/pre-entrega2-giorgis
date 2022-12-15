@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "nombre": "Paleta Sane Impronta Polietileno",
+    "descripcion": "Paleta de de pádel con forma de lágrima, balance medio-alto, siendo el control su punto fuerte.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta_sane_impronta_11-95947fad0d4445087915458731914717-320-0.webp",
+    "precio": 21819,
+    "stock": 5,
+    "categoria": "palas"
+  },
+  {
+    "id": 2,
+    "nombre": "Paleta Siux Tsunami 2.0 Roja Eva Soft",
+    "descripcion": "La Siux Tsunami 2.0 es una paleta de pádel que rinde sobre todo bien cerca de la red gracias a su potencia. Además, dispone de un punto de impacto muy amplio para favorecer un juego de control y precisión. Estructura resistente y duradera, con marco de carbono y caras de fibra de vidrio para mayor flexibilidad.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta_siux_tsunami_2-0_roja_eva_111-7e450f7d798bdbf8e715780087814248-320-0.webp",
+    "precio": 22679,
+    "stock": 8,
+    "categoria": "palas"
+  },
+  {
+    "id": 3,
+    "nombre": "Paleta Odea Legend Full Carbon Eva Soft",
+    "descripcion": "La paleta de pádel Odea Legend Full Carbon es ideal para un juego equilibrado entre potencia y control. Sus caras están fabricadas 100% en carbono, lo cual ofrece mayor resistencia y proporciona un toque de potencia extra. Además, su núcleo en eva soft, logra una amortiguación excepcional, evitando que las vibraciones lleguen al brazo.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta-odea-legend-full-carbon-eva-soft-11-edea20b42c92c84e4c16178324535974-320-0.webp",
+    "precio": 39599,
+    "stock": 10,
+    "categoria": "palas"
+  },
+  {
+    "id": 4,
+    "nombre": "Paleta Bewe Rattle Carbon Eva Soft",
+    "descripcion": "La Paleta de pádel Bewe Rattle Carbon es ideal para un juego equilibrado entre potencia y control. Está diseñada con forma de lágrima y balance medio, mientras que las caras están confeccionadas con fibra de carbono.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta-bewe-rattle-carbon-eva-soft-11-c3d9f433e3bd69281316201435708646-320-0.webp",
+    "precio": 31749,
+    "stock": 7,
+    "categoria": "palas"
+  },
+  {
+    "id": 5,
+    "nombre": "Paleta Wingpadel Air Combat 3.0 Black Control Eva Soft",
+    "descripcion": "La nueva Air Combat 3.0 Black Control está diseñada para buscar la máxima precisión en cada golpe. Incorpora como novedad la tecnología Horn Bridge en el corazón, que cambia el cuello, amplía el punto dulce y aumenta la resistencia. Además, también es nueva la MRM Tech que incorpora la goma eva soft laminada del núcleo para ofrecer una amortiguación increíble y una gran velocidad en la salida de pelota.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta_wingpadel_air_combat_3-0_black_attack_eva_soft_11-f2bf781c84ee26edea16015601554945-320-0.webp",
+    "precio": 73499,
+    "stock": 2,
+    "categoria": "palas"
+  },
+  {
+    "id": 6,
+    "nombre": "Paleta Sane Impronta 3.1 Eva",
+    "descripcion": "Una de las paletas de pádel más elegidas de los últimos años presenta un cambio notorio en su cosmética. Ideal para un juego equilibrado entre potencia y control. Las caras están fabricadas con fibra de vidrio, lo que la hace más flexible y facilita el control del golpeo. Además, el marco es de carbono, perfecto para evitar roturas y conseguir una paleta más resistente y duradera.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta-sane-impronta-3-1-eva-soft-11-715c002422bf55a2d316386491928155-320-0.webp",
+    "precio": 28799,
+    "stock": 3,
+    "categoria": "palas"
+  },
+
+  {
+    "id": 7,
+    "nombre": "Paleta Wingpadel Air Combat 3.0 Black Attack Eva Soft",
+    "descripcion": "La nueva Wingpadel Air Combat 3.0 Black Attack llega para ayudarte a crear la victoria, no a esperarla. Este nuevo modelo incorpora novedades, en el núcleo la MRM Tech y en el corazón, la tecnología Horn Bridge.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta_wingpadel_air_combat_3-0_black_attack_eva_soft_11-f2bf781c84ee26edea16015601554945-320-0.webp",
+    "precio": 73499,
+    "stock": 4,
+    "categoria": "palas"
+  },
+
+  {
+    "id": 8,
+    "nombre": "Paleta Odea Fusion Eva Soft",
+    "descripcion": "La paleta de pádel Odea Fusion es ideal para un juego equilibrado entre control y potencia. Está diseñada con forma redonda y balance medio, mientras que las caras están confeccionadas con fibra de vidrio.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/paleta-odea-fusion-eva-soft-31-7a5ebcf59b7f7d67dd16486518894971-320-0.webp",
+    "precio": 29699,
+    "stock": 1,
+    "categoria": "palas"
+  },
+
+  {
+    "id": 9,
+    "nombre": "Remera Sublime Dry Fitset Azul Marino",
+    "descripcion": "Es una remera diseñada para brindar calidad y comodidad en tus partidos de pádel. Cuello redondo y manga corta, confeccionada en fibra de poliéster con tecnología dry-fitset.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-dri-fit-azul-marino-11-5d4007017c7aeac87416279037991405-320-0.webp",
+    "precio": 2539,
+    "stock": 8,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 10,
+    "nombre": "Remera Black Crown Live Negra",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-live-negra-11-737cb8b0602732cc4616475457072331-320-0.webp",
+    "precio": 4629,
+    "stock": 5,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 11,
+    "nombre": "Remera Black Crown Cool Elastic Roja",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-cool-elastic-rojo-11-c43704e981254cee6416374243008984-320-0.webp",
+    "precio": 5309,
+    "stock": 4,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 12,
+    "nombre": "Remera Black Crown Aero Dry Celeste",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-aero-dry-celeste-11-0ecc59a0656d67790616374211635560-320-0.webp",
+    "precio": 3929,
+    "stock": 6,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 13,
+    "nombre": "Remera Black Crown Cool Elastic Azul",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-cool-elastic-azul-11-fed77425b397e17ee516374190642919-320-0.webp",
+    "precio": 3929,
+    "stock": 1,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 14,
+    "nombre": "Remera Black Crown Live Azul",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-live-azul-11-ad8a432083c72ff9c416669864805870-320-0.webp",
+    "precio": 4629,
+    "stock": 8,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 15,
+    "nombre": "Remera Black Crown Cool Elastic Azul 2.0",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-cool-elastic-azul-2-0-11-426c72652bcd3eedbb16471060727769-320-0.webp",
+    "precio": 5309,
+    "stock": 6,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 16,
+    "nombre": "Remera Black Crown Aero Dry Naranja",
+    "descripcion": "Es una remera diseñada para jugadores de pádel que buscan calidad y comodidad en su ropa. Cuello en V y manga corta, confeccionada en set de poliéster y elastano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/remera-black-crown-aero-dry-naranja-111-5c148f350e540af12516374203527416-320-0.webp",
+    "precio": 2909,
+    "stock": 2,
+    "categoria": "remeras"
+  },
+
+  {
+    "id": 17,
+    "nombre": "Cubre Grip Odear Perforado con Relieve Azul",
+    "descripcion": "Con este cubre grip podrás garantizar una mejor experiencia en tus partidos, ya que presenta relieves para entregarte el mejor tacto entre la paleta y tu mano.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/cubregrip_odear_relieve_azul_11-3d9e497047bc334ed715694550944021-320-0.webp",
+    "precio": 489,
+    "stock": 15,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 18,
+    "nombre": "Cubre Grip Odea Liso Amarillo Flúor",
+    "descripcion": "El cubre grip Odea Liso aporta una increíble comodidad a la hora de jugar al pádel. Gracias a sus características ofrece la máxima absorción del sudor y una excelente durabilidad.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/cubre-grip-odea-liso-amarillo-fluor-11-a1c12dea5fa5db251f16296540254699-320-0.webp",
+    "precio": 379,
+    "stock": 20,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 19,
+    "nombre": "Cubre Grip Odea Liso Azul",
+    "descripcion": "El cubre grip Odea Liso aporta una increíble comodidad a la hora de jugar al pádel. Gracias a sus características ofrece la máxima absorción del sudor y una excelente durabilidad.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/cubre-grip-odea-liso-azul-11-9834a40d2c55911c4716296542338188-320-0.webp",
+    "precio": 379,
+    "stock": 18,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 20,
+    "nombre": "Cubre Grip Odea Liso Negro",
+    "descripcion": "El cubre grip Odea Liso aporta una increíble comodidad a la hora de jugar al pádel. Gracias a sus características ofrece la máxima absorción del sudor y una excelente durabilidad.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/cubre-grip-odea-liso-negro-11-03825c92de637d254516296543840336-320-0.webp",
+    "precio": 379,
+    "stock": 15,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 21,
+    "nombre": "Protector Black Crown Transparente con Aletas",
+    "descripcion": "Fabricado en vinilo termocontraible, garantiza fácil colocación, protección total al marco de la paleta y gran resistencia a golpes y raspaduras. Disfrutá al 100% la estética de tu paleta de pádel.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/protector-black-crown-transparente-con-aletas-11-3f2817738a22ec12ba16604187289710-320-0.webp",
+    "precio": 689,
+    "stock": 22,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 22,
+    "nombre": "Protector Black Crown Transparente sin Aletas",
+    "descripcion": "Fabricado en vinilo termocontraible, garantiza fácil colocación, protección total al marco de la paleta y gran resistencia a golpes y raspaduras. Disfrutá al 100% la estética de tu paleta de pádel.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/protector_black_crown_transparente_sin_aletas_1-11-3a2e80acb918da23e415949965130143-320-0.webp",
+    "precio": 579,
+    "stock": 7,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 23,
+    "nombre": "Protector Cartri de Carbono sin Aletas",
+    "descripcion": "Cuidá el marco de tu paleta con la superficie rugosa y ergonómica del protector de carbono Cartri. Lo podés usar tanto para proteger tu paleta de pádel como para darle un cambio de diseño.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/protector-cartri-evo-sin-aletas-21-7fdfc2ac960ac3cdb216495938112301-320-0.webp",
+    "precio": 1869,
+    "stock": 8,
+    "categoria": "accesorios"
+  },
+
+  {
+    "id": 24,
+    "nombre": "Protector Wingpadel Transparente sin Aletas",
+    "descripcion": "Garantiza protección total al marco de la paleta sin alterar su equilibrio y rendimiento. Fácil colocación y gran resistencia a golpes y raspaduras. Se adapta a todas las paletas de pádel sin importar el tamaño o forma. Disfrutá al 100% la estética de tu paleta de pádel.",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/919/712/products/protector-transparente-wingpadel-11-5a911a8599841b601316205128646844-320-0.webp",
+    "precio": 419,
+    "stock": 9,
+    "categoria": "accesorios"
+  }
+]

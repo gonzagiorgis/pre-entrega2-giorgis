@@ -1,13 +1,26 @@
 import React from "react";
-import ItemCount from "./ItemCount";
+import { useState, useEffect } from "react";
+import ItemList from "./ItemList";
+import arrayProductos from "./json/arrayProductos.json";
 
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    const promesa = new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(arrayProductos);
+      }, 2000);
+    });
+
+    promesa.then((dato) => {
+      setItems(dato);
+    });
+  }, []);
+
   return (
-    <div className="item-list-container position-relative bg-danger">
-      <div className=" text-bg-danger text-center position-absolute top-50 start-50 translate-middle">
-        {greeting}
-      </div>
-      <ItemCount stock={10} />
+    <div className="container position-relative">
+      <ItemList items={items} />
     </div>
   );
 };
