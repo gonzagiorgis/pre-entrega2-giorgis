@@ -1,18 +1,19 @@
 import React from "react";
 import CarWidget from "./CarWidget";
+import { Link, NavLink } from "react-router-dom";
 
 const navBar = () => {
   return (
     <div className="col-11 col-lg-10 col-xl-8 m-auto">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" to={"/"}>
             <img
               className="brand-icon"
-              src="img/logosvg2.svg"
-              alt="Logo de Jardín Padel Club"
+              src={"/img/logosvg2.svg"}
+              alt={"Logo de Jardín Padel Club"}
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler light-shadows"
             type="button"
@@ -27,24 +28,24 @@ const navBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around font-normal">
               <li className="nav-item ">
-                <a className="nav-link" aria-current="page" href="index.html">
+                <NavLink className="nav-link" aria-current="page" to={"/"}>
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="palas.html">
+                <NavLink className="nav-link" to={"category/palas"}>
                   Palas
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="remeras.html">
+                <NavLink className="nav-link" to={"category/remeras"}>
                   Remeras
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="accesorios.html">
+                <NavLink className="nav-link" to={"category/accesorios"}>
                   Accesorios
-                </a>
+                </NavLink>
               </li>
             </ul>
             <CarWidget />

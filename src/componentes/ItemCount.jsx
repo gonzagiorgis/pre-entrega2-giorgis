@@ -12,29 +12,30 @@ const ItemCount = ({ stock }) => {
   };
 
   const decrementar = () => {
-    if (cantidad > 0) {
+    if (cantidad > 1) {
       setCantidad(cantidad - 1);
     }
   };
 
   const onAdd = () => {
-    if (stockItem > 0 && cantidad <= stockItem) {
+    if (cantidad <= stockItem) {
       setStock(stockItem - cantidad);
       setCantidad(0);
     }
     console.log(`Agragaste ${cantidad} al carrito`);
+    console.log(stock);
   };
 
   return (
     <div className="container">
       <div className="row">
         <div
-          className="btn-group col-md-2"
+          className="btn-group col-md-2 offset-md-5"
           role="group"
           aria-label="Basic outlined example"
         >
           <button
-            type="button col-1"
+            type="button col-3"
             className="btn btn-outline-primary btn-counter"
             onClick={incrementar}
           >
@@ -55,7 +56,7 @@ const ItemCount = ({ stock }) => {
       <div className="row">
         <button
           type="button"
-          className="btn btn-outline-primary btn-counter col-md-2 mt-3 "
+          className="btn btn-outline-primary btn-counter col-md-4 offset-md-4 mt-3 mb-3"
           onClick={onAdd}
         >
           Agregar al carrito

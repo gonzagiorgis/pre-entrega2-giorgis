@@ -11,7 +11,7 @@ const Footer = () => {
             <div>
               <img
                 className="footer-icon"
-                src="img/whatsapp_icon.svg"
+                src={"/img/whatsapp_icon.svg"}
                 alt="Logo de Whatsapp"
               />
               0351 662-3136
@@ -28,7 +28,7 @@ const Footer = () => {
             >
               <img
                 className="footer-icon me-3"
-                src="img/facebook_icon.svg"
+                src={"/img/facebook_icon.svg"}
                 alt="Logo de Facebook"
               />
             </a>
@@ -39,7 +39,7 @@ const Footer = () => {
             >
               <img
                 className="footer-icon"
-                src="img/instagram_icon.svg"
+                src={"/img/instagram_icon.svg"}
                 alt="Logo de Instagram"
               />
             </a>

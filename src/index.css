@@ -169,3 +169,9 @@ footer ul {
 img.card {
   background-color: none;
 }
+
+.error {
+  color: #ffab23;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
