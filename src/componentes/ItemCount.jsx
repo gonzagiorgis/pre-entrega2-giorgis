@@ -36,7 +36,6 @@ const ItemCount = ({ stock }) => {
       setCantidad(0);
     }
     console.log(`Agragaste ${cantidad} al carrito`);
-    console.log(stockItem);
   };
 
   return (
