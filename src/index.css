@@ -175,7 +175,3 @@ img.card {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
 }
-
-.navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url(https://localhost:3000/static/media/nav-toggler.c99b4c72e39a19c3f72d.svg);
-}
