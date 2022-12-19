@@ -113,6 +113,10 @@
   --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg");
 }
 
+.navbar {
+  --bs-navbar-active-color: #ffab23;
+}
+
 footer {
   height: 20vh;
 }
