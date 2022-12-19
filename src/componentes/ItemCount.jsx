@@ -3,19 +3,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 const ItemCount = ({ stock }) => {
-  const [cantidad, setCantidad] = useState(1);
+  const [cantidad, setCantidad] = useState(0);
   const [stockItem, setStockItem] = useState(0);
 
-  // no sumaba al usar useState(stock), solucione el problema inicializando stockItem con la prop stock de manera asincrónica ya que proviene de dicha forma desde ItemDetailContainer, de otra manera indicaba stockItem como undefined y no sumaba con incrementar()
   useEffect(() => {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(stock);
-      });
-    });
-    promesa.then((dato) => {
-      setStockItem(dato);
-    });
+    setStockItem(stock);
   }, [stock]);
 
   const incrementar = () => {
@@ -49,9 +41,9 @@ const ItemCount = ({ stock }) => {
           <button
             type="button col-3"
             className="btn btn-outline-primary btn-counter"
-            onClick={incrementar}
+            onClick={decrementar}
           >
-            +
+            -
           </button>
           <button type="button" className="btn btn-outline-primary btn-counter">
             {cantidad}
@@ -59,9 +51,9 @@ const ItemCount = ({ stock }) => {
           <button
             type="button"
             className="btn btn-outline-primary btn-counter"
-            onClick={decrementar}
+            onClick={incrementar}
           >
-            -
+            +
           </button>
         </div>
       </div>
