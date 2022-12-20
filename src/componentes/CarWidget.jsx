@@ -4,7 +4,7 @@ const CarWidget = () => {
   return (
     <button
       type="button"
-      className="btn btn-custom position-relative me-3 mb-3 mb-lg-0 light-shadows"
+      className="btn btn-custom position-relative me-3 mb-3 mb-lg-0"
       id="cart-btn"
     >
       <img

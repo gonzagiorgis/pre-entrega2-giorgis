@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #408aca;
+
 
 }
 
@@ -23,6 +23,7 @@
 .cart-icon {
   width: 32px;
   background: none;
+
 }
 
 .brand-icon {
@@ -34,29 +35,61 @@
   animation: out 0.5s forwards;
 }
 
-.btn-counter {
-  background-color: #408aca;
-  color: #ffffff;
-  border-radius: 3px;
-  border-color: #ffffff;
-  box-shadow: 0px 5px 5px 0px rgba(78, 78, 78, 0.699);
 
+
+.button-agregar {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-agregar:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-agregar {
+    padding: 10px 30px;
+  }
 }
 
 .light-shadows {
   box-shadow: 0px 5px 5px 0px rgba(78, 78, 78, 0.699);
 }
 
+.btn-counter {
+  color: #747474;
+  border-radius: 3px;
+  border-color: #ffffff;
+  background-color: rgb(204, 204, 204);
+  border: 1px solid #ffffff;
+  font-weight: 700;
+}
+
 .btn-counter:hover {
   background-color: #F7B64F;
-  color: #ffffff;
   border-color: #ffffff;
+
 }
 
 .btn-counter:active {
   background-color: #F7B64F;
-  color: #ffffff;
-  border-color: #ffffff;
 }
 
 .btn-outline-primary {
@@ -93,15 +126,14 @@
 
 .btn-custom {
   --bs-btn-color: #ffffff;
-  --bs-btn-border-color: rgb(255, 255, 255);
-  --bs-btn-hover-color: #408aca;
+  --bs-btn-border-color: #e6e6e6;
+  --bs-btn-hover-color: #ffffff;
   --bs-btn-hover-bg: #F7B64F;
-  --bs-btn-hover-border-color: 408aca;
+  --bs-btn-hover-border-color: #F7B64F;
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: rgb(207, 207, 207);
-  --bs-btn-active-bg: #408aca;
-  --bs-btn-active-border-color: #ffffff;
-  --bs-btn-active-shadow: inset 0 1px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-active-bg: #F7B64F;
+  --bs-btn-active-border-color: #F7B64F;
   --bs-btn-disabled-color: 408aca;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #ffffff;
@@ -111,6 +143,8 @@
 
 .nav-container {
   box-shadow: 0 0 5px rgb(0, 0, 0);
+  background-color: #408acac5;
+  backdrop-filter: blur(5px)
 }
 
 .navbar {
@@ -123,8 +157,8 @@ nav div button.navbar-toggler span.navbar-toggler-icon {
 
 footer {
   height: 20vh;
+  background-color: #408aca;
 }
-
 
 .text-footer-brand {
   font-family: 'Comfortaa', cursive;
@@ -153,12 +187,12 @@ footer ul {
 }
 
 .card-body {
-  color: #ffffff;
+  color: #5c5c5c;
   font-family: 'Roboto', sans-serif;
 }
 
 .text-basic {
-  color: #ffffff;
+  color: #5c5c5c;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
 }
@@ -170,7 +204,7 @@ footer ul {
 }
 
 .img-item {
-  box-shadow: 4px 4px 4px 0px rgba(78, 78, 78, 0.699);
+  box-shadow: 0px 3px 8px 0px rgba(78, 78, 78, 0.699);
   z-index: +50;
 }
 

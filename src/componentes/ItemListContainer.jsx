@@ -25,7 +25,7 @@ const ItemListContainer = () => {
   }, [id]);
 
   return (
-    <div className="container position-relative my-2">
+    <div className="container position-relative my-5">
       <ItemList items={items} />
     </div>
   );

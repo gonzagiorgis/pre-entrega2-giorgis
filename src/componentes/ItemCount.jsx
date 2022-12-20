@@ -60,7 +60,7 @@ const ItemCount = ({ stock }) => {
       <div className="row">
         <button
           type="button"
-          className="btn btn-outline-primary btn-counter col-md-4 offset-md-4 mt-3 mb-3"
+          className="button-agregar col-md-4 offset-md-4 mt-3 mb-3"
           onClick={onAdd}
         >
           Agregar al carrito

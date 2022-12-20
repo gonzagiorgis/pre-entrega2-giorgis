@@ -53,10 +53,10 @@ const navBar = () => {
               <input
                 className="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Buscar"
                 aria-label="Search"
               />
-              <button className="btn btn-custom light-shadows" type="submit">
+              <button className="btn btn-custom" type="submit">
                 Buscar
               </button>
             </form>

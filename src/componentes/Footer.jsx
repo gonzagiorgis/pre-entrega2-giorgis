@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container p-0">
-      <div className="row m-0">
+    <footer className="container-fluid p-0 m-0 h-auto">
+      <div className="row m-0 text-center">
         <div className="col-11 text-footer-brand col-sm-3 mt-3 mt-sm-0">
           Jardín Padel Club
           <div className="text-footer">
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="col-11 col-sm-3 text-footer mt-3 mt-sm-0">
           Puedes seguirnos en nuestras redes sociales:
-          <div className="d-flex justify-content-around d-block mt-2">
+          <div className="d-flex justify-content-center d-block mt-2">
             <a
               href="https://www.facebook.com/jardinpadel/"
               target={"_blank"}
