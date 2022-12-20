@@ -110,7 +110,7 @@
 }
 
 .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg");
+  --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg") !important;
 }
 
 .navbar {
