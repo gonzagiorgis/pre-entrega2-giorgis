@@ -109,6 +109,10 @@
 
 }
 
+.nav-container {
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
 .navbar {
   --bs-navbar-active-color: #ffab23;
 }
