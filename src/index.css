@@ -109,12 +109,9 @@
 
 }
 
-/* .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg") !important;
-} */
-
 .navbar {
   --bs-navbar-active-color: #ffab23;
+  --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg") !important;
 }
 
 footer {
