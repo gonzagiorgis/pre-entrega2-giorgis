@@ -111,7 +111,10 @@
 
 .navbar {
   --bs-navbar-active-color: #ffab23;
-  --bs-navbar-toggler-icon-bg: url("../public/img/nav-toggler.svg") !important;
+}
+
+nav div button.navbar-toggler span.navbar-toggler-icon {
+  background-image: url(../public/img/nav-toggler.svg);
 }
 
 footer {
