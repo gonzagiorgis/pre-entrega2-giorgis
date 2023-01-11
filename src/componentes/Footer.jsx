@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="container-fluid p-0 m-0 h-auto">
-      <div className="row m-0 text-center">
+      <div className="row m-0 text-center pt-3">
         <div className="col-11 text-footer-brand col-sm-3 mt-3 mt-sm-0">
           Jardín Padel Club
           <div className="text-footer">
