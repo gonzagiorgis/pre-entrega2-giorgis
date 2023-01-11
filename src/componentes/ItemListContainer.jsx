@@ -16,7 +16,7 @@ const ItemListContainer = () => {
             ? arrayProductos.filter((item) => item.categoria === id)
             : arrayProductos
         );
-      }, 2000);
+      }, 1000);
     });
 
     promesa.then((dato) => {
