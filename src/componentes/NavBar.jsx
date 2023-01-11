@@ -56,7 +56,7 @@ const navBar = () => {
                 placeholder="Buscar"
                 aria-label="Search"
               />
-              <button className="btn btn-custom" type="submit">
+              <button className="btn btn-custom light-shadows" type="submit">
                 Buscar
               </button>
             </form>

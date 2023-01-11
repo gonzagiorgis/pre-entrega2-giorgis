@@ -126,7 +126,7 @@
 
 .btn-custom {
   --bs-btn-color: #ffffff;
-  --bs-btn-border-color: #e6e6e6;
+  --bs-btn-border-color: rgba(0, 0, 0, 0.1);
   --bs-btn-hover-color: #ffffff;
   --bs-btn-hover-bg: #F7B64F;
   --bs-btn-hover-border-color: #F7B64F;
