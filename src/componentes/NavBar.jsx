@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const navBar = () => {
   return (
     <div className="row m-0 nav-container sticky-top ">
-      <nav className="navbar navbar-expand-lg col-11 col-lg-10 col-xl-8 m-auto">
+      <nav className="navbar navbar-expand-lg col-11 col-lg-10 col-xl-8 m-auto p-0">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"/"}>
             <img
