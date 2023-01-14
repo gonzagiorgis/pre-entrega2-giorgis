@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
         console.log("Error no se encontró");
       }
     });
-  }, []);
+  }, [id]);
 
   return (
     <div className="container">
