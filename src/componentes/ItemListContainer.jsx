@@ -1,26 +1,30 @@
+import {
+  collection,
+  getDocs,
+  getFirestore,
+  query,
+  where,
+} from "firebase/firestore";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
-import arrayProductos from "./json/arrayProductos.json";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
   const { id } = useParams();
 
+  //consulta a la colleccion en firebase
   useEffect(() => {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(
-          id
-            ? arrayProductos.filter((item) => item.categoria === id)
-            : arrayProductos
-        );
-      }, 1000);
-    });
+    const db = getFirestore();
+    const itemsCollection = collection(db, "items");
 
-    promesa.then((dato) => {
-      setItems(dato);
+    const q = id
+      ? query(itemsCollection, where("categoria", "==", id))
+      : itemsCollection;
+
+    getDocs(q).then((snapShot) => {
+      setItems(snapShot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
     });
   }, [id]);
 
