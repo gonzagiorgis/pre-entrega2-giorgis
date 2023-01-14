@@ -12,12 +12,10 @@
   font-size: 1.2rem;
   color: #ffffff;
   font-weight: 300;
-  animation: in 0.5s forwards
 }
 
 .nav-link:hover {
   color: #F7B64F;
-  animation: out 0.5s forwards;
 }
 
 .cart-icon {
