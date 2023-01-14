@@ -1,10 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const ItemCount = ({ stock }) => {
+const ItemCount = ({ stock, onAdd }) => {
   const [cantidad, setCantidad] = useState(0);
   const [stockItem, setStockItem] = useState(0);
+  const [vendido, setVendido] = useState(false);
 
   useEffect(() => {
     setStockItem(stock);
@@ -22,12 +24,13 @@ const ItemCount = ({ stock }) => {
     }
   };
 
-  const onAdd = () => {
+  const addToCart = (cantidad) => {
     if (cantidad <= stockItem) {
       setStockItem(stockItem - cantidad);
-      setCantidad(0);
+      onAdd(cantidad);
+      setVendido(true);
     }
-    console.log(`Agragaste ${cantidad} al carrito`);
+    setCantidad(0);
   };
 
   return (
@@ -58,13 +61,31 @@ const ItemCount = ({ stock }) => {
         </div>
       </div>
       <div className="row">
-        <button
-          type="button"
-          className="button-agregar col-md-4 offset-md-4 mt-3 mb-3"
-          onClick={onAdd}
-        >
-          Agregar al carrito
-        </button>
+        {vendido ? (
+          <Link
+            to={"/cart"}
+            type="button"
+            className="button-agregar col-md-4 offset-md-4 mt-3 mb-3"
+            style={{
+              backgroundColor: "#F7B64F",
+              border: "1px solid #F7B64F",
+            }}
+          >
+            Teminar la compra
+          </Link>
+        ) : (
+          <button
+            type="button"
+            className="button-agregar col-md-4 offset-md-4 mt-3 mb-3"
+            onClick={() => {
+              cantidad > 0
+                ? addToCart(cantidad)
+                : alert("Debe ingresar la cantidad del producto");
+            }}
+          >
+            Agregar al carrito
+          </button>
+        )}
       </div>
     </div>
   );
