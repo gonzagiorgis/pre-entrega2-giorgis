@@ -1,3 +1,7 @@
+Proyecto final del Curso de REACTJS de CoderHouse.
+Ecomerce para el club de Padel Jardin.
+Se utiliza firebase como base de datos para manejar los items y los pedidos.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
