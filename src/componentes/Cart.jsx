@@ -7,7 +7,7 @@ const Cart = () => {
     useContext(CartContext);
 
   return (
-    <div className="container">
+    <div className="container text-size">
       <div className="row">
         {cartTotal() === 0 ? (
           <div className="d-flex flex-column align-items-center mt-3">
@@ -25,7 +25,7 @@ const Cart = () => {
           </div>
         ) : (
           <div className="col-12 text-center">
-            <table className="table">
+            <table className="table table-sm">
               <thead className="thead-dark">
                 <tr>
                   <th scope="col">&nbsp;</th>
@@ -35,7 +35,7 @@ const Cart = () => {
                   <th scope="col">
                     <Link
                       title="Vaciar carrito"
-                      className="btn btn-warning"
+                      className="btn btn-warning text-size"
                       onClick={clear}
                     >
                       Vaciar carrito
@@ -50,7 +50,7 @@ const Cart = () => {
                       <img
                         src={item.imagen}
                         alt={"Imagen de " + item.nombre}
-                        width={50}
+                        className="img-cart"
                       />
                     </td>
                     <td className="text-start align-middle">{item.nombre}</td>

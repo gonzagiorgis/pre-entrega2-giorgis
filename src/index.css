@@ -33,6 +33,26 @@
   animation: out 0.5s forwards;
 }
 
+.img-cart {
+  width: 25px;
+}
+
+.text-size {
+  font-size: 0.7rem;
+  padding: 0.3rem
+}
+
+
+@media (min-width: 397px) {
+  .text-size {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .img-cart {
+    width: 50px;
+  }
+}
 
 
 .button-agregar {
