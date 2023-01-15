@@ -1,8 +1,11 @@
 import React from "react";
 import CarWidget from "./CarWidget";
 import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [buscar, setBuscar] = useState("");
+
   return (
     <div className="row m-0 nav-container sticky-top pb-lg-0 pb-2">
       <nav className="navbar navbar-expand-lg col-11 col-lg-10 col-xl-8 m-auto p-0">
@@ -49,16 +52,23 @@ const NavBar = () => {
               </li>
             </ul>
             <CarWidget />
-            <form className="d-flex visually-hidden" role="search">
+            <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
                 type="search"
                 placeholder="Buscar"
                 aria-label="Search"
+                onInput={(e) => {
+                  setBuscar(e.target.value);
+                }}
               />
-              <button className="btn btn-custom light-shadows" type="button">
+              <NavLink
+                className="btn btn-custom light-shadows"
+                type="button"
+                to={"/resultadoBusqueda/" + buscar}
+              >
                 Buscar
-              </button>
+              </NavLink>
             </form>
           </div>
         </div>
