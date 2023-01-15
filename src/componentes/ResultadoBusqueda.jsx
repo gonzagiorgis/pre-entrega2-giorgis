@@ -1,7 +1,7 @@
 import { collection, getDocs, getFirestore } from "firebase/firestore";
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import Loading from "./Loading";
 
@@ -33,8 +33,18 @@ const ResultadoBusqueda = () => {
       ) : items.length !== 0 ? (
         <ItemList items={items} />
       ) : (
-        <div className="alert alert-warning text-center" role="alert">
-          No se encontraron resultados
+        <div className="d-flex flex-column align-items-center mt-3">
+          <div className="col-6 text-center alert alert-warning" role="alert">
+            No se encontraron resultados.
+          </div>
+          <Link
+            title="Volver a inicio"
+            to={"/"}
+            type="button"
+            className="button-agregar col-md-3 mt-1 mb-3"
+          >
+            Volver a inicio
+          </Link>
         </div>
       )}
     </div>
