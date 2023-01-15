@@ -2,7 +2,7 @@ import React from "react";
 import CarWidget from "./CarWidget";
 import { Link, NavLink } from "react-router-dom";
 
-const navBar = () => {
+const NavBar = () => {
   return (
     <div className="row m-0 nav-container sticky-top pb-lg-0 pb-2">
       <nav className="navbar navbar-expand-lg col-11 col-lg-10 col-xl-8 m-auto p-0">
@@ -56,7 +56,7 @@ const navBar = () => {
                 placeholder="Buscar"
                 aria-label="Search"
               />
-              <button className="btn btn-custom light-shadows" type="submit">
+              <button className="btn btn-custom light-shadows" type="button">
                 Buscar
               </button>
             </form>
@@ -67,4 +67,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;
