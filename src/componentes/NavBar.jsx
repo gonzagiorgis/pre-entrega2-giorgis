@@ -49,7 +49,7 @@ const navBar = () => {
               </li>
             </ul>
             <CarWidget />
-            <form className="d-flex" role="search">
+            <form className="d-flex visually-hidden" role="search">
               <input
                 className="form-control me-2"
                 type="search"

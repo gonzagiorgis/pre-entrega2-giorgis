@@ -3,10 +3,12 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
+import Loading from "./Loading";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState({});
   const { id } = useParams();
+  const [cargando, setCargando] = useState(true);
 
   //consulta a un documento en firebase
   useEffect(() => {
@@ -15,6 +17,7 @@ const ItemDetailContainer = () => {
     getDoc(documento).then((snapShot) => {
       if (snapShot.exists()) {
         setItem({ id: snapShot.id, ...snapShot.data() });
+        setCargando(false);
       } else {
         console.log("Error no se encontró");
       }
@@ -23,7 +26,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div className="container">
-      <ItemDetail item={item} />
+      {cargando ? <Loading></Loading> : <ItemDetail item={item} />}
     </div>
   );
 };

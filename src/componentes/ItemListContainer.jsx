@@ -9,10 +9,12 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
+import Loading from "./Loading";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
   const { id } = useParams();
+  const [cargando, setCargando] = useState(true);
 
   //consulta a la colleccion en firebase
   useEffect(() => {
@@ -25,12 +27,13 @@ const ItemListContainer = () => {
 
     getDocs(q).then((snapShot) => {
       setItems(snapShot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+      setCargando(false);
     });
   }, [id]);
 
   return (
     <div className="container position-relative my-5">
-      <ItemList items={items} />
+      {cargando ? <Loading></Loading> : <ItemList items={items} />}
     </div>
   );
 };
