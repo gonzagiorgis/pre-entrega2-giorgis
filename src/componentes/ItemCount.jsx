@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const ItemCount = ({ stock, onAdd }) => {
   const [cantidad, setCantidad] = useState(0);
@@ -80,7 +81,12 @@ const ItemCount = ({ stock, onAdd }) => {
             onClick={() => {
               cantidad > 0
                 ? addToCart(cantidad)
-                : alert("Debe ingresar la cantidad del producto");
+                : Swal.fire({
+                    title: "Error!",
+                    text: "Debes indicar una cangidad del producto",
+                    icon: "error",
+                    confirmButtonText: "Ok",
+                  });
             }}
           >
             Agregar al carrito

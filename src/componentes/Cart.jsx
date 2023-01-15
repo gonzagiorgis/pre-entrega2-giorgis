@@ -91,7 +91,7 @@ const Cart = () => {
             </table>
             <Link
               title="Ir a pagar"
-              to={"/checkOut"}
+              to={"/checkout"}
               type="button"
               className="button-agregar col-md-3 mt-3 mb-3"
             >
